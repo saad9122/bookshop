@@ -1,0 +1,268 @@
+*,*::after,*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*============= Header Logos =========*/
+
+.header-icons{
+    display: flex;
+}
+
+.header-icons img {
+    margin: 0 0.25rem;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+
+.pages-heading {
+
+    margin: 0 1rem 0 0.5rem;
+}
+.pages-heading img {
+    width: 1.25rem;
+    height: 1.5rem;
+}
+.pages-heading h2 {
+    color: var(--text-primary);
+    margin-left: 0.4rem;
+}
+
+@media screen and (max-width:576px) {
+    
+    .header-icons {display: none;}
+    .pages-heading {margin: 0 0 0 0.5rem;}
+}
+
+/*============= Order Today =========*/
+li.order-today a {
+    padding: 0.7rem 1.8rem;
+    background-color:var(--secondary);
+}
+.carticon {
+    margin: auto 0;
+}
+
+/*============= Cart Icons =========*/
+
+li.cart {
+    position: relative;
+}
+div.cart-count {
+    position: absolute; 
+    background-color: var(--secondary);
+    border-radius: 50%;
+    top: 0.1rem;
+    right: 0.1rem;
+    width: 1.3rem;
+    height: 1.3rem; 
+}
+div.cart-count p {
+    color: black;
+}
+
+/*=====================================*/
+
+
+
+
+#navbar {
+    background-color: var(--light-dark);
+
+}
+
+ul.navbar-ul li.name h5{
+    text-align:center;
+}
+
+
+/*================Navbar ===========*/
+
+/*================Fix Navbar on Top ===========*/
+div.navbar-container {        
+    background-color: var(--primary);
+    /* position: relative; */
+    color: var(--text-primary);
+    z-index: 1010;
+}
+
+/*================Fix Navbar in Navbar Container ===========*/
+
+div.navbar {
+    background-color: var(--primary);
+    color: var(--text-primary); 
+    z-index: 999;
+    overflow: hidden;
+    /* position: absolute; */
+    top: 0;
+    left: 0rem;
+    right: 0rem;
+}
+
+div.navbar > * {
+    /* position: relative; */
+}
+div.navbar ul{
+    background-color: var(--primary);
+    color: var(--text-primary);
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+ul.navbar-ul li{
+    
+    display: inline-block;
+    margin-left: 0.4rem;
+    
+}
+
+
+ul.navbar-ul.pc li:hover{
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+
+ul.nacvar-ul.pc li:hover {
+    cursor: default;
+}
+ul.navbar-ul.pc li:hover a {
+
+    color:var(--text-primary);
+}
+
+
+ul.navbar-ul li a{
+    display: block;
+
+    padding: 0.6rem 0.8rem;
+}
+
+
+ul.navbar-ul li a{
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+
+
+div.navbar button.navbar-btn{
+    display: none;
+    background-color: var(--primary);
+    color:white;
+    outline: none;
+    border: none;
+}
+
+div.navbar button.navbar-btn:hover{
+    cursor: pointer;
+    background-color: var(--bg-color);
+    color: var(--second);
+    transform: scale(1.1);
+}
+nav.pc{
+    overflow: hidden;
+}
+/*===============Media=============== */
+@media screen and (max-width:768px){
+    div.navbar nav.pc{
+        width: 0px;
+        height: 0px;
+        display:none;
+    }
+
+
+/*===============Media=============== */
+
+
+nav.pc{
+    transition: width 2s;
+}
+
+
+    div.navbar button.navbar-btn {
+        display: block;
+    }
+}
+
+
+/*===============Dark Mode Btn ============*/
+
+.form-check-input:checked {
+    background-color: var(--second);
+    border-color: var(--second);
+    
+}
+
+.form-switch {
+    padding-left: 1rem !important;
+    padding-right:0.2rem
+}
+.form-switch .form-check-input {
+    margin-left: 0rem;
+    float:none;
+
+}
+li.form-check.form-switch{
+    cursor: default !important;
+}
+input.form-check-input {
+    padding: 0 !important;
+    cursor: pointer;
+}
+ul.navbar-ul.pc li.form-check:hover{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    
+}
+
+.form-check-input:checked {
+    background-color: var(--second);
+    border-color: var(--second);
+    
+}
+
+@media screen and (max-width:768px){
+    div.dark-toggle-btn {
+        position: fixed;
+    }
+    .form-switch .form-check-input {
+        width: 2em;
+        float:none;
+        margin-left:2.5rem ;
+    }
+    .form-switch {
+        padding-left: 0.6rem !important;
+    }
+    
+}
+
+/*===============Go to Top button ============*/
+button.go-to-top {
+position: fixed;
+background-color: var(--second);
+color: var(--bg-color);
+bottom: 5rem;
+right: 0rem;    
+border-radius: 0.5rem 0 0 0;
+z-index:999;
+border: none;
+outline: none;
+}
+button.go-to-top a{
+    margin-right: 0;
+    display: block;
+    padding: 0.4rem 0.8rem;
+
+}
+
+
+.go-top-arrow {
+    
+    color: var(--bg-color);
+}

@@ -1,0 +1,39 @@
+
+*,*::after,*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header, footer {
+  
+  background-color: var(--primary);
+  color: var(--text-primary);
+
+}
+footer {
+  margin-top: 2rem;
+}
+
+
+#service {
+  padding-top: 1rem;
+}
+
+
+
+div.section-line {
+  background-color: var(--secondary);
+  height: 4px;
+  width: 5rem;
+  margin: 2rem auto;
+} 
+
+
+div.left-line {
+  background-color: var(--secondary);
+  height: 5px;
+  width: 4rem;
+  margin: 1.5rem 0;
+}
+
+

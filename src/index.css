@@ -1,0 +1,100 @@
+@tailwind base; 
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+  h4 {
+    @apply text-xl;
+  }
+  h5 {
+    @apply text-lg;
+  }
+}
+
+:root{
+  --primary: #1B3764;
+  --secondary:#FFCA42;
+  --bg-color:#F6F8FC;
+  --overlay: rgba(16, 16, 16, 90%);
+  --text-primary:#FFFFFF;
+  --text-secondary:#B4C7E7;
+  --text-black:black;
+
+}
+
+.App.light {
+  --bg-color:#F0F0F0;
+  --text-color:black;
+  --second:#00008B;
+  --light-dark: #F5F5F5;
+}
+
+.App.dark {
+   --bg-color:black;
+   --text-color:#F0F0F0;
+   --second:#FFD700;
+  --light-dark:#181818;
+}
+
+body#body{ 
+  margin: 0;
+  padding: 0;
+
+}
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes  slide-right {
+  
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+}
+@keyframes  slide-left {
+  
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes  slide-down {
+  
+  from {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes typing-effect {
+  from {width: 0;}
+  to {width:18rem;}
+  
+}

@@ -1,0 +1,6 @@
+.banner {
+    color: white;
+}
+.imagebox {
+    background-color: var(--text-secondary);
+}

@@ -1,0 +1,99 @@
+
+
+
+
+
+
+ul.navbar-ul.mobile li.resume a{
+    background-color: var(--bg-color);
+    color: var(--text-color); 
+    cursor: pointer;
+}
+
+ul.navbar-ul.mobile li.name{
+    opacity: 1;
+}
+
+ul.navbar-ul.mobile li:hover {
+    cursor: pointer;
+}
+
+nav.mobile{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--overlay);
+    z-index: 1000;
+}
+
+nav.mobile ul.navbar-ul.mobile{
+    position: absolute;
+    width: 15rem;
+    left: 0rem;
+    top: 0rem;
+    bottom: 0rem;
+    padding: 1rem 0.5rem ;
+    border-radius: 0.5rem;
+    height: 100vh;
+    border-radius: 0px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    display: block;
+}
+
+ul.navbar-ul.mobile li{
+    padding: 1rem 0.5rem;
+    width: 100%;
+    display: block;
+    opacity: 0.8;
+}
+ul.navbar-ul.mobile li a {
+    display: inline;
+}
+
+div.navbar button.navbar-btn.mobile {
+    position: fixed;
+    z-index: 1001;
+    top: 2;
+    right: 1rem;
+    background-color:rgba(0, 0, 0, 0);
+    color: white;
+}
+.icons{
+    color: var(--secondary);
+}
+.icons.mobile {
+    margin-right: 0.6rem;
+}
+
+
+ul.navbar-ul.mobile li.cart a{
+width: 100%;
+height: 4rem;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid var(--secondary);
+border-radius: 0.5rem;
+font-size: 2rem;
+
+}
+
+
+
+
+/*============= Cart Icons =========*/
+
+div.cart-count.mobile {
+    position: absolute; 
+    background-color: var(--secondary);
+    border-radius: 50%;
+}
+
+div.cart-count p {
+    color: black;
+}

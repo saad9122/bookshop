@@ -1,0 +1,29 @@
+.quantity-icon {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+
+
+}
+ 
+.quantity button {
+    padding: 0.5rem;
+    background-color: black;
+    border-radius: 0.2rem;
+}
+th {   
+    padding: 1rem 0.5rem;
+    background-color: var(--secondary);
+    
+    
+}
+th.product {
+    text-align: start;
+}
+
+td {
+    text-align: center;
+    vertical-align: center;
+    padding: 1rem 0.5rem;
+}

@@ -1,0 +1,12 @@
+
+input::placeholder::before {
+  font-weight: 900;
+  content: "\f002";
+  margin-right: 10px;
+}
+
+input.contact-checkbox {
+    position: relative;
+    top:0.3rem;
+    cursor: pointer;
+}

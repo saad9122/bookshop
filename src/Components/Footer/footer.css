@@ -1,0 +1,49 @@
+
+
+#footer h2 {
+    margin-bottom: 1rem;
+
+}
+
+
+
+.footer-icons{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.footer-icons img {
+    margin: 0 0.3rem;
+    height: 2.9rem;
+    width: 2.9rem;
+}
+
+.pages-footer {
+
+    margin: 0 1.8rem 0 0.5rem;
+}
+.pages-footer img {
+    width: 1.25rem;
+    height: 1.5rem;
+}
+.pages-footer h2 {
+    margin-left: 0.4rem;
+}
+
+.footer-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-ul li {
+    padding: 0.5rem 0;
+}
+.footer-ul li a {
+    text-decoration: none;
+    color: var(--text-secondary);
+}
+.footer-ul img {
+    margin-right: 0.5rem;
+    display: inline-block;
+}
